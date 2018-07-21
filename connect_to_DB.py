@@ -2,7 +2,7 @@
 
 import MySQLdb
 
-cnx = MySQLdb.connect (host="localhost", user="root", passwd="yepyep", db="first_DB")
+cnx = MySQLdb.connect (host="localhost", user="root", passwd="*****", db="first_DB")
 
 cur = cnx.cursor()
 
